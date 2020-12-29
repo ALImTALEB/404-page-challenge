@@ -1,0 +1,264 @@
+body{
+    background-color: whitesmoke;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container {
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.c-details {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.heading {
+    margin: 40px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+.img {
+    max-width: 80%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: transition;
+    animation: transition 10s infinite linear;
+   
+}
+@keyframes transition {
+    50% {
+        transform:rotate(10deg);
+          }
+          100% {
+        transform:rotate(-20deg);
+}
+}
+
+.d-heading {
+    font-size: 30px;
+    font-family: Space Mono;
+    line-height: 70px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.d-details {
+    font-style: 30px;
+    font-size: 20px;
+    font-family: monospace;
+    letter-spacing: 3px;
+    line-height: 30px;
+
+}
+.btn {
+    margin-top: 50px;
+    width: 200px;
+    height: 70px;
+    color: white;
+    background-color: #262626
+    ;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #2e004d
+
+    ;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.me {
+    margin-top: 90px;
+    margin-bottom: 0px;
+text-align: center;
+font-family: sans-serif;
+}
+
+
+@media (max-width:960px) {
+    body {
+        position: relative;
+
+
+
+    }
+    .img {
+        width: 70%;
+        height: auto;
+        position: absolute;
+        left: 11.73%;
+        right: 11.78%;
+        top: 11.49%;
+        bottom: 63.44%;
+        
+    }
+    .container {
+        width: 80%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .d-heading {
+        position: absolute;
+        width: 350px;
+        height: 142px;
+        left: 224px;
+        top: 657px;
+        
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        
+       
+    }
+    .d-details {
+        position: absolute;
+width: 328px;
+height: 81px;
+left: 223px;
+top: 879px;
+
+font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.035em;
+
+    }
+    .btn {
+        position: absolute;
+        width: 216px;
+        height: 68px;
+        left: 224px;
+        top: 986px;
+        
+    }
+    .btn:hover {
+        background-color: #2e004d
+
+        ;
+    }
+    .me {
+        position: absolute;
+width: 226px;
+height: 17px;
+left: 275px;
+top: 1090px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+    }
+}
+
+@media (max-width:500px) {
+    body {
+        position: relative;
+width: 375px;
+height: 949px;
+
+
+    }
+    .img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 11.73%;
+        right: 11.78%;
+        top: 11.49%;
+        bottom: 63.44%;
+        
+    }
+    .container {
+        width: 80%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .d-heading {
+        position: absolute;
+        width: 350px;
+        height: 142px;
+        left: 24px;
+        top: 407px;
+        
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        
+       
+    }
+    .d-details {
+        position: absolute;
+width: 328px;
+height: 81px;
+left: 23px;
+top: 579px;
+
+font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.035em;
+
+    }
+    .btn {
+        position: absolute;
+        width: 216px;
+        height: 68px;
+        left: 24px;
+        top: 726px;
+        
+    }
+    .btn:hover {
+        background-color: #2e004d
+
+        ;
+    }
+    .me {
+        position: absolute;
+width: 226px;
+height: 17px;
+left: 75px;
+top: 890px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+    }
+}
